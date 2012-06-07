@@ -13,8 +13,8 @@ define(['order!jquery', 'order!underscore', 'order!backbone', 'views/inicio/inic
 	},
 	defaultAction : function(){
 	    inicial.render();
-	}
-    });
+	    	}
+    });   
 
     var iniciar = function(){
 	r = new rutas();
